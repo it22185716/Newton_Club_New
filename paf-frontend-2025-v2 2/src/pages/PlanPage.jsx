@@ -78,7 +78,7 @@ const PlanPage = () => {
     });
   };
 
-  // Open modal for creating new plans
+  // Open modal for creating new plan
   const openCreateModal = () => {
     setCurrentPlan(null);
     setFormData({
@@ -90,7 +90,7 @@ const PlanPage = () => {
     setIsModalOpen(true);
   };
 
-  // Open modal for editing plan
+  // Open modal for editing plans
   const openEditModal = (plan) => {
     setCurrentPlan(plan);
     setFormData({
