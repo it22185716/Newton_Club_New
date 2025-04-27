@@ -5,7 +5,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import learningPlanApi from '../api/planApi';
 import userApi from '../api/userApi';
 
-// Set app element for accessibility
+// Set app element for accessibilityy
 
 Modal.setAppElement('#root');
 
