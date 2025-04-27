@@ -69,7 +69,7 @@ const PlanPage = () => {
     fetchData();
   }, [userId]);
 
-  // Handle form input chanes
+  // Handle form input changes
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setFormData({
@@ -78,7 +78,7 @@ const PlanPage = () => {
     });
   };
 
-  // Open modal for creating new plan
+  // Open modal for creating new plans
   const openCreateModal = () => {
     setCurrentPlan(null);
     setFormData({
