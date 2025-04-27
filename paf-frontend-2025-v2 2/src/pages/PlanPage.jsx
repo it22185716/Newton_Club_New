@@ -24,7 +24,7 @@ const PlanPage = () => {
 
   const userId = localStorage.getItem('userId');
 
-  // Modal styless
+  // Modal styles
   const customStyles = {
     content: {
       top: '50%',
@@ -46,7 +46,7 @@ const PlanPage = () => {
     }
   };
 
-  // Fetch all plans and user data
+  // Fetch all plans and user dataa
   useEffect(() => {
     const fetchData = async () => {
       try {
