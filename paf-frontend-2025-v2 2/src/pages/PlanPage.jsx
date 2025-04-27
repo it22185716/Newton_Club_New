@@ -46,7 +46,7 @@ const PlanPage = () => {
     }
   };
 
-  // Fetch all plans and user dataa
+  // Fetch all plans and user data
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -69,7 +69,7 @@ const PlanPage = () => {
     fetchData();
   }, [userId]);
 
-  // Handle form input changes
+  // Handle form input chanes
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setFormData({
