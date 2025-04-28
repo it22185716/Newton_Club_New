@@ -138,7 +138,7 @@ const PlanPage = () => {
         toast.success('Learning plan created successfully');
       }
       
-      // Refresh plans lists
+      // Refresh plans list
       const updatedPlans = await learningPlanApi.getAllLearningPlans();
       setPlans(updatedPlans);
       closeModal();
@@ -150,7 +150,7 @@ const PlanPage = () => {
     }
   };
 
-  // Delete plan
+  // Delete plans
   const handleDelete = async (planId) => {
     if (window.confirm('Are you sure you want to delete this learning plan?')) {
       try {
