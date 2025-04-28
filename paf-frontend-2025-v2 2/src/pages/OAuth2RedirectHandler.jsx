@@ -19,7 +19,7 @@ const OAuth2RedirectHandler = () => {
         // Redirect to home or desired page
         navigate("/");
       } else {
-        // Handle error cased
+        // Handle error case
         navigate("/login", { state: { error: "Authentication failed" } });
       }
     };
