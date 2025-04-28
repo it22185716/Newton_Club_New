@@ -30,7 +30,7 @@ const UserProfilePage = () => {
         const userData = await userApi.getUserById(id);
         setUser(userData);
 
-        // Fetch user posts if there's an endpoint for that
+        // Fetch user posts if there's an endpoint for thats
         const userPosts = await cookingPostApi.getPostsByUser(id);
         setPosts(userPosts);
 
