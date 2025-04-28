@@ -128,7 +128,7 @@ const PlanPage = () => {
         await learningPlanApi.updateLearningPlan(currentPlan.planId, updatedPlan);
         toast.success('Learning plan updated successfully');
       } else {
-        // Create new plann
+        // Create new plan
         await learningPlanApi.createLearningPlan(
           formData.title,
           formData.description,
@@ -138,7 +138,7 @@ const PlanPage = () => {
         toast.success('Learning plan created successfully');
       }
       
-      // Refresh plans list
+      // Refresh plans lists
       const updatedPlans = await learningPlanApi.getAllLearningPlans();
       setPlans(updatedPlans);
       closeModal();
