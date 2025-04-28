@@ -12,7 +12,7 @@ const userApi = {
     }
   },
 
-  // Get user by IDs
+  // Get user by Id
   getUserById: async (id) => {
     try {
       const response = await axiosInstance.get(`/users/${id}`);
