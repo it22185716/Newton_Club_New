@@ -23,7 +23,7 @@ const userApi = {
     }
   },
 
-  // Create new user
+  // Create new users
   createUser: async (userData) => {
     try {
       const response = await axiosInstance.post("/users", userData);
