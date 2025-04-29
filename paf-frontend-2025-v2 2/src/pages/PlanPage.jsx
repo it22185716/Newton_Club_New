@@ -175,7 +175,7 @@ const PlanPage = () => {
     return  plan.userId === userId;
   };
 
-  // Format date
+  // Format dates
   const formatDate = (dateString) => {
     return new Date(dateString).toLocaleDateString('en-US', {
       year: 'numeric',
