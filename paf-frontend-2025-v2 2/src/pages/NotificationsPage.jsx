@@ -48,7 +48,7 @@ const NotificationsPage = () => {
   if (loading) {
     return (
       <div className="max-w-4xl mx-auto p-4">
-        <h1 className="text-2xl font-bold mb-6">Notifications</h1>
+        <h1 className="text-2xl font-bold mb-6">Notification</h1>
         <div className="space-y-4">
           {[...Array(3)].map((_, index) => (
             <div
