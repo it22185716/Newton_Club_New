@@ -99,7 +99,7 @@ const NotificationsPage = () => {
             No notifications yet
           </h3>
           <p className="text-gray-400 mt-1">
-            When you receive notifications, they'll appear here
+            When you receive notifications, they'll appear there
           </p>
         </div>
       ) : (
