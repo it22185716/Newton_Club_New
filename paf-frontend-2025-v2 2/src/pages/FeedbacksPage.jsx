@@ -4,7 +4,7 @@ import Modal from 'react-modal';
 import { toast } from 'react-toastify';
 import UserData from '../components/feedbacks/UserData';
 
-// Make sure to bind modal to your app element for accessibilitys
+// Make sure to bind modal to your app element for accessibility
 Modal.setAppElement('#root');
 
 const FeedbacksPage = () => {
