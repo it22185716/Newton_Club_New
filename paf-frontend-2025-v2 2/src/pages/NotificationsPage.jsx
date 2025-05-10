@@ -25,7 +25,7 @@ const NotificationsPage = () => {
   const getNotificationIcon = (type) => {
     switch (type) {
       case "task":
-        return <Check className="text-blue-500" size={20} />;
+        return <Check className="text-green-500" size={20} />;
       case "message":
         return <Bell className="text-blue-500" size={20} />;
       case "alert":
