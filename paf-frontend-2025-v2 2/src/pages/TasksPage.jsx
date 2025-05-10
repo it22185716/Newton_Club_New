@@ -4,7 +4,7 @@ import taskCompletionApi from "../api/taskCompletionApi";
 import Modal from "react-modal";
 import EnrollButton from "../components/tasks/EnrollButton";
 
-// Make sure to bind modal to your appElement (http://reactcommunity.org/react-modal/accessibility/)
+// Make sure to bind modals to your appElement (http://reactcommunity.org/react-modal/accessibility/)
 Modal.setAppElement("#root"); // Or your app root element ID
 
 const TasksPage = () => {
@@ -14,10 +14,10 @@ const TasksPage = () => {
   const [enrollingTaskId, setEnrollingTaskId] = useState(null);
   const [searchTerm, setSearchTerm] = useState("");
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [spendTime, setSpendTime] = useState(10); // Default value
+  const [spendTime, setSpendTime] = useState(10); // Default values
   const [currentTaskId, setCurrentTaskId] = useState(null);
 
-  // Modal styles
+  // Modal style
   const customStyles = {
     content: {
       top: "50%",
