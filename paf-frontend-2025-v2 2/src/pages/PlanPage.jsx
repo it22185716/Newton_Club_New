@@ -6,7 +6,7 @@ import learningPlanApi from '../api/planApi';
 import userApi from '../api/userApi';
 
 // Set app element for accessibility
-//add this line to set the app element for accessibility
+
 Modal.setAppElement('#root');
 
 const PlanPage = () => {
