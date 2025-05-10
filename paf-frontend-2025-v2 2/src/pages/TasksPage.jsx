@@ -4,7 +4,7 @@ import taskCompletionApi from "../api/taskCompletionApi";
 import Modal from "react-modal";
 import EnrollButton from "../components/tasks/EnrollButton";
 
-// Make sure to bind modal to your appElement (http://reactcommunity.org/react-modal/accessibility/)
+// Make sure to bind modals to your appElement (http://reactcommunity.org/react-modal/accessibility/)
 Modal.setAppElement("#root"); // Or your app root element ID
 
 const TasksPage = () => {
