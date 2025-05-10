@@ -169,7 +169,7 @@ const menuItems = [
         <header className="bg-white shadow">
           <div className="px-6 py-4">
             <div className="flex items-center justify-between">
-              <h2 className="text-lg font-semibold text-gray-800">
+              <h2 className="text-lg font-semibold text-gray-700">
                 {menuItems.find(item => item.key === activeKey)?.label || 'Dashboard'}
               </h2>
               <div className="flex items-center">
