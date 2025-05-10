@@ -14,4 +14,4 @@ const UserData = ({ userId }) => {
   );
 };
 
-export default UserData;
+export default UserData; //data
