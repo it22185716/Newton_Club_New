@@ -38,7 +38,7 @@ const RegisterPage = () => {
       newErrors.lastName = "Last name should contain only letters";
     }
 
-    // Username validation
+    // Username validations
     if (!formData.username) {
       newErrors.username = "Username is required";
     } else if (formData.username.length < 3) {
