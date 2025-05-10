@@ -55,7 +55,7 @@ const NotificationsPage = () => {
               key={index}
               className="animate-pulse flex p-4 bg-white rounded-lg shadow"
             >
-              <div className="h-10 w-10 bg-gray-200 rounded-full mr-3"></div>
+              <div className="h-10 w-10 bg-bluegray-200 rounded-full mr-3"></div>
               <div className="flex-1">
                 <div className="h-4 bg-gray-200 rounded w-3/4 mb-2"></div>
                 <div className="h-3 bg-gray-100 rounded w-1/2"></div>
