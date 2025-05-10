@@ -120,7 +120,7 @@ const PlanPage = () => {
       setLoading(true);
       
       if (currentPlan) {
-        // Update existing plann
+        // Update existing plan
         const updatedPlan = {
           ...formData,
           user: { id: userId }
@@ -128,7 +128,7 @@ const PlanPage = () => {
         await learningPlanApi.updateLearningPlan(currentPlan.planId, updatedPlan);
         toast.success('Learning plan updated successfully');
       } else {
-        // Create new plan
+        // Create new plann
         await learningPlanApi.createLearningPlan(
           formData.title,
           formData.description,
