@@ -54,7 +54,7 @@ const CookingPostsPage = () => {
   return (
     <div className="container w-[800px] mx-auto px-4 py-8">
       <div className="flex justify-between items-center mb-8">
-        <h1 className="text-3xl font-bold text-gray-800">Cooking Posts</h1>
+        <h1 className="text-3xl font-bold text-gray-800">Meal Plan Posts</h1>
         <button
           onClick={openCreateModal}
           className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition"
