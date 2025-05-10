@@ -5,7 +5,7 @@ import { Bell, Check, Trash2, AlertCircle, Clock } from "lucide-react";
 const NotificationsPage = () => {
   const [notifications, setNotifications] = useState([]);
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState();
+  const [error, setError] = useState(null);
 
   useEffect(() => {
     setLoading(true);
