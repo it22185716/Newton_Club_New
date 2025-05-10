@@ -20,7 +20,7 @@ const notificationApi = {
       );
       return response.data;
     } catch (error) {
-      console.error(`Error  ${userId}:`, error);
+      console.error(`Error fetching notifications for user ${userId}:`, error);
       throw error;
     }
   },
