@@ -46,7 +46,7 @@ const PlanPage = () => {
     }
   };
 
-  // Fetch all plans and user data
+  // Fetch all plans and user datas
   useEffect(() => {
     const fetchData = async () => {
       try {
