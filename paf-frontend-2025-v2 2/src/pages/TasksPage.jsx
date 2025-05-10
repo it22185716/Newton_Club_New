@@ -14,7 +14,7 @@ const TasksPage = () => {
   const [enrollingTaskId, setEnrollingTaskId] = useState(null);
   const [searchTerm, setSearchTerm] = useState("");
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [spendTime, setSpendTime] = useState(10); // Default value
+  const [spendTime, setSpendTime] = useState(10); // Default values
   const [currentTaskId, setCurrentTaskId] = useState(null);
 
   // Modal style
