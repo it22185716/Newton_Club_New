@@ -24,7 +24,7 @@ const PlanPage = () => {
 
   const userId = localStorage.getItem('userId');
 
-  // Modal styles
+  // Modal styless
   const customStyles = {
     content: {
       top: '50%',
