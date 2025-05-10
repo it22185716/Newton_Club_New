@@ -107,7 +107,7 @@ const PlanPage = () => {
     setIsModalOpen(false);
   };
 
-  // Submit form (create or update))
+  // Submit form (create or update)
   const handleSubmit = async (e) => {
     e.preventDefault();
     
@@ -120,7 +120,7 @@ const PlanPage = () => {
       setLoading(true);
       
       if (currentPlan) {
-        // Update existing plan
+        // Update existing plann
         const updatedPlan = {
           ...formData,
           user: { id: userId }
