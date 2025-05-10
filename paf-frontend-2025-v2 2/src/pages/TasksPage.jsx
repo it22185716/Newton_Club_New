@@ -17,7 +17,7 @@ const TasksPage = () => {
   const [spendTime, setSpendTime] = useState(10); // Default value
   const [currentTaskId, setCurrentTaskId] = useState(null);
 
-  // Modal styles
+  // Modal style
   const customStyles = {
     content: {
       top: "50%",
