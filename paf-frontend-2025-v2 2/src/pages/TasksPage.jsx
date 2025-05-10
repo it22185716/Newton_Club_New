@@ -170,7 +170,7 @@ const TasksPage = () => {
         />
       </div>
 
-      {/* Enroll Modal */}
+      {/* Enroll Modals */}
       <Modal
         isOpen={isModalOpen}
         onRequestClose={closeModal}
