@@ -254,7 +254,7 @@ const PlanPage = () => {
         </div>
       )}
 
-      {/* Create/Edit Modals */}
+      {/* Create/Edit Modal */}
       <Modal
         isOpen={isModalOpen}
         onRequestClose={closeModal}
