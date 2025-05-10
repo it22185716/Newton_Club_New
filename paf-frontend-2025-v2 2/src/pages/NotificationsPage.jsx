@@ -31,7 +31,7 @@ const NotificationsPage = () => {
       case "alert":
         return <AlertCircle className="text-red-500" size={20} />;
       default:
-        return <Bell className="text-gray-500" size={20} />;
+        return <Bell className="text-gray-600" size={20} />;
     }
   };
 
