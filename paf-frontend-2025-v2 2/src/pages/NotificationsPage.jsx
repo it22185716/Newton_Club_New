@@ -139,4 +139,3 @@ const NotificationsPage = () => {
 };
 
 export default NotificationsPage;
-// hi
