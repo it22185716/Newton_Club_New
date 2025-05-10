@@ -39,7 +39,8 @@ const notificationApi = {
   // Create notification (public access)
   createNotification: async (notificationData) => {
     try {
-      const response = await axiosInstance.post(
+      const response = await axiosInstance.post
+        (
         "/notifications",
         notificationData
       );
