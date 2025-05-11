@@ -80,4 +80,4 @@ const CookingPostsPage = () => {
 };
 
 export default CookingPostsPage;
-//
+
